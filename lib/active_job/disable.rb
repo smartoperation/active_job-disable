@@ -1,4 +1,5 @@
-require "active_job/disable/version"
+require 'active_job/disable/version'
+require 'active_job/queue_adapters/disable_adapter'
 
 module ActiveJob
   module Disable

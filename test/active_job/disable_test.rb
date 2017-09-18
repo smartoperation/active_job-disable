@@ -5,7 +5,7 @@ class ActiveJob::DisableTest < Minitest::Test
     refute_nil ::ActiveJob::Disable::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test_load
+    ActiveJob::Base.queue_adapter = :disable
   end
 end
