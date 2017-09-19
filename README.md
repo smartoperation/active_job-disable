@@ -1,5 +1,8 @@
 # ActiveJob::Disable
 
+[![Gem Version](https://badge.fury.io/rb/active_job-disable.svg)](https://badge.fury.io/rb/active_job-disable)
+[![CircleCI](https://circleci.com/gh/smartoperation/active_job-disable.svg?style=svg)](https://circleci.com/gh/smartoperation/active_job-disable)
+
 An ActiveJob queue adapter that disables delayed job.
 
 ## Installation
