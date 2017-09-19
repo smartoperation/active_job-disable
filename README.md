@@ -1,6 +1,6 @@
 # ActiveJob::Disable
 
-A rails plugin that disables Active job.
+An ActiveJob queue adapter that disables delayed job.
 
 ## Installation
 

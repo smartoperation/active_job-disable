@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Taiki Sugawara']
   spec.email         = ['buzz.taiki@gmail.com']
 
-  spec.summary       = 'A rails plugin that disables Active job.'
+  spec.summary       = 'An ActiveJob queue adapter that disables delayed job.'
   spec.homepage      = 'https://github.com/smartoperation/active_job-disable'
   spec.license       = 'MIT'
 
